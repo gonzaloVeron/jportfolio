@@ -1,0 +1,9 @@
+canvas {
+    display: block; /* N.B. important for canvas to fit host */
+    margin: 0px;
+    background: #dddddd; /* color shows if no scene background or renderer "setClearColor" not set */
+}
+
+h1 {
+    font-family: Lato;
+}

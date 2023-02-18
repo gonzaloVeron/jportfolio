@@ -1,0 +1,30 @@
+// @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    // margin: 0;
+    padding: 0;
+    filter: blur(0.3vmax) contrast(2);
+    transform: scale(1.1);
+
+    display: block; /* N.B. important for canvas to fit host */
+    margin: 0px;
+    //background: black; /* color shows if no scene background or renderer "setClearColor" not set */
+}
+
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
+
+// body {
+//     background: black;
+// }
